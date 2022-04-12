@@ -1,0 +1,169 @@
+body {
+    background-color: #868cad06;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+}
+
+.appContainer {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.addTask {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    width: 40%;
+    padding: 10px 0 10px 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: #1b2450;
+}
+
+::placeholder {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+.addTaskBtn {
+    font-family: 'Oswald', sans-serif;
+    width: 204px;
+    padding: 10px 0px;
+    background-color: #1b2450;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.16s ease-in-out;
+    font-size: 16px;
+}
+
+.addTaskBtn:hover {
+    background-color: #868cad;
+}
+
+#clearAllBtn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 8px 16px;
+    margin: 40px;
+    border: none;
+    background-color: #1b2450;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.textDecoration {
+    text-decoration: line-through;
+    background-color: rgba(0, 195, 130, 0.857);
+}
+
+h1 {
+    text-align: center;
+    color: #1b2450;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    line-height: 0%;
+    font-size: 68px;
+    margin-top: 1em;
+}
+
+h2 {
+    text-align: center;
+    color: #868cad;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 40px;
+}
+
+#tasksDiv {
+    margin: 2.5px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul input {
+    margin: 2px 2px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    width: 40%;
+    padding: 10px 0 10px 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: #868cad;
+    transition: all 0.15s ease-in-out;
+}
+
+.dltBtn { 
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 2px;
+    color: #fff;
+    background-color: #1b2450;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.completeBtn { 
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 2px;
+    color: #fff;
+    background-color: #1b2450;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.dltBtn:hover, .completeBtn:hover {
+    background-color: #868cad;
+}
+
+.fade {
+    transition: all 0.25s ease-in-out;
+}
+
+.taskFade {
+    margin: 2px 2px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    width: 40%;
+    padding: 10px 0 10px 10px;
+    border: none;
+    outline: none;
+    color: #16161A;
+    font-size: 16px;
+    background-color: #fff;
+    transition: all 0.16s ease-in-out;
+}
